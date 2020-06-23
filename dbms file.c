@@ -9,7 +9,7 @@ void main()
  int b,a,d,v,g,c;
 
 
- whil(1){
+ while(1){
  {
    printf("\n 1)Add ");
    printf("\n 2)Display ");
@@ -22,7 +22,7 @@ void main()
   }
 	switch(c)
 	{
-	  cas 1: {
+	  case 1: {
 
 		   idc=0;
 		   f = fopen("datafile.txt","a+");
@@ -88,7 +88,7 @@ void main()
 		     fclose(f);
 		   }}
 		   break;
-	 cas 2 :{
+	 case 2 :{
 
 		   printf("\nStudent Record are : \n");
 		   printf("\nid\tname\tclass\tbranch\tmarks 1\tmarks2\tmarks3\ttotal\tperc\tgrade");
@@ -106,7 +106,7 @@ void main()
 		   fclose(f);
 		 }break;
 
-	 cas 3 :{
+	 case 3 :{
 
 		   idc = 0;
 		   f = fopen("datafile.txt","a+");
@@ -192,7 +192,7 @@ void main()
 
 
 		 }break;
-	 cas 4 :{
+	 case 4 :{
 
 		   idc = 0;
 		   f = fopen("datafile.txt","r");
@@ -246,7 +246,7 @@ void main()
 
 
 		 }break;
-	 cas 5 : {
+	 case 5 : {
 
 			printf("\nStudent Record is : \n");
 
@@ -279,7 +279,7 @@ void main()
 		   fclose(fp);
 		   getch();
 		  }break;
-	 cas 6 : exit(0);
+	 case 6 : exit(0);
 
 	}//s
 	}//l
